@@ -18,7 +18,7 @@ class Settings(BaseSettings):
         description="NVIDIA OpenAI-compatible API base URL"
     )
     nvidia_model: str = Field(
-        default="meta/llama-3.1-8b-instruct",
+        default="openai/gpt-oss-20b",
         description="Target LLM model hosted on NVIDIA NIM / API"
     )
     cors_origins: Union[List[str], str] = Field(

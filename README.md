@@ -102,7 +102,7 @@ ai-study-assistant/
    ```
    Edit `.env` and insert your NVIDIA API key:
    ```env
-   NVIDIA_API_KEY=nvapi-your-real-key-here
+   NVIDIA_API_KEY=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
    NVIDIA_BASE_URL=https://integrate.api.nvidia.com/v1
    NVIDIA_MODEL=meta/llama-3.1-8b-instruct
    CORS_ORIGINS=["http://localhost:3000"]

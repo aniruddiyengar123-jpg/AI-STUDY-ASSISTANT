@@ -1,0 +1,16 @@
+services:
+  backend:
+    image: ai-study-assistant-backend:latest
+    container_name: ai-study-assistant-backend
+    env_file:
+      - ./backend/.env
+    ports:
+      - "8000:8000"
+
+  frontend:
+    image: ai-study-assistant-frontend:latest
+    container_name: ai-study-assistant-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
