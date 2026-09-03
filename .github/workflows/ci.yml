@@ -30,7 +30,7 @@ jobs:
         run: docker build -t ai-study-assistant-backend ./backend
 
 
-            - name: Build frontend Docker image
+      - name: Build frontend Docker image
         run: docker build -t ai-study-assistant-frontend ./frontend
 
-        
+
